@@ -6,7 +6,7 @@ use App\VehicleInterface;
 
 class car implements VehicleInterface
 {
-    public function viewInfo($getInfo){
-        echo 'car ' . $getInfo->getInfo() . '<br/>';
+    public function viewInfo($data){
+        echo 'car ' . $data->getInfo() . '<br/>';
     }
 }

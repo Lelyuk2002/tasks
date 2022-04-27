@@ -5,7 +5,7 @@ use App\VehicleInterface;
 
 class ship implements VehicleInterface
 {
-    public function viewInfo($getInfo){
-        echo 'ship ' . $getInfo->getInfo() . '<br/>';
+    public function viewInfo($data){
+        echo 'ship ' . $data->getInfo() . '<br/>';
     }
 }
